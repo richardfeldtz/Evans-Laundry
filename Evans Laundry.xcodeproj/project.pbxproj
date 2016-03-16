@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA831EE31C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png in Resources */ = {isa = PBXBuildFile; fileRef = AA831EE21C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png */; };
 		AA831EE51C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA831EE41C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png */; };
 		AA89A8CB1C912650001922B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89A8CA1C912650001922B3 /* main.m */; };
 		AA89A8CE1C912650001922B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89A8CD1C912650001922B3 /* AppDelegate.m */; };
@@ -15,10 +14,10 @@
 		AA89A8D41C912650001922B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA89A8D21C912650001922B3 /* Main.storyboard */; };
 		AA89A8D61C912650001922B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA89A8D51C912650001922B3 /* Assets.xcassets */; };
 		AA89A8D91C912650001922B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA89A8D71C912650001922B3 /* LaunchScreen.storyboard */; };
+		AA98075C1C99FF2500098D10 /* Laundry_Laundomat_White_clip_art_hight.png in Resources */ = {isa = PBXBuildFile; fileRef = AA98075B1C99FF2500098D10 /* Laundry_Laundomat_White_clip_art_hight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA831EE21C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Laundry_Laundomat_White_clip_art_hight.png; path = ../../../../Downloads/laundry_laundomat_white_clip_art_10313/Laundry_Laundomat_White_clip_art_hight.png; sourceTree = "<group>"; };
 		AA831EE41C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "transparent-png-background-dryer-door-closed.png"; path = "../../../../Downloads/transparent-png-background-dryer-door-closed.png"; sourceTree = "<group>"; };
 		AA89A8C61C912650001922B3 /* Evans Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evans Laundry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA89A8CA1C912650001922B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		AA89A8D51C912650001922B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA89A8D81C912650001922B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA89A8DA1C912650001922B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA98075B1C99FF2500098D10 /* Laundry_Laundomat_White_clip_art_hight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Laundry_Laundomat_White_clip_art_hight.png; path = "../../../../Downloads/laundry_laundomat_white_clip_art_10313-2/Laundry_Laundomat_White_clip_art_hight.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 		AA831EE61C99EFEE007C5D11 /* Washer/Dryer Clipart */ = {
 			isa = PBXGroup;
 			children = (
-				AA831EE21C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png */,
+				AA98075B1C99FF2500098D10 /* Laundry_Laundomat_White_clip_art_hight.png */,
 				AA831EE41C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png */,
 			);
 			name = "Washer/Dryer Clipart";
@@ -151,10 +151,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA831EE31C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png in Resources */,
 				AA89A8D91C912650001922B3 /* LaunchScreen.storyboard in Resources */,
 				AA89A8D61C912650001922B3 /* Assets.xcassets in Resources */,
 				AA89A8D41C912650001922B3 /* Main.storyboard in Resources */,
+				AA98075C1C99FF2500098D10 /* Laundry_Laundomat_White_clip_art_hight.png in Resources */,
 				AA831EE51C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
