@@ -43,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA831EE61C99EFEE007C5D11 /* Washer/Dryer Clipart */ = {
+			isa = PBXGroup;
+			children = (
+				AA831EE21C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png */,
+				AA831EE41C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png */,
+			);
+			name = "Washer/Dryer Clipart";
+			sourceTree = "<group>";
+		};
 		AA89A8BD1C912650001922B3 = {
 			isa = PBXGroup;
 			children = (
@@ -70,8 +79,7 @@
 				AA89A8D51C912650001922B3 /* Assets.xcassets */,
 				AA89A8D71C912650001922B3 /* LaunchScreen.storyboard */,
 				AA89A8DA1C912650001922B3 /* Info.plist */,
-				AA831EE41C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png */,
-				AA831EE21C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png */,
+				AA831EE61C99EFEE007C5D11 /* Washer/Dryer Clipart */,
 				AA89A8C91C912650001922B3 /* Supporting Files */,
 			);
 			path = "Evans Laundry";

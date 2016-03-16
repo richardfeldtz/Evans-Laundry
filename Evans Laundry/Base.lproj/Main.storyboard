@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -104,12 +105,146 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Laundry_Laundomat_White_clip_art_hight.png" translatesAutoresizingMaskIntoConstraints="NO" id="GZc-1L-BxE">
+                                <rect key="frame" x="16" y="74" width="125" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="460-PB-Qw0"/>
+                                    <constraint firstAttribute="width" constant="125" id="ypI-bs-2Ne"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Laundry_Laundomat_White_clip_art_hight.png" translatesAutoresizingMaskIntoConstraints="NO" id="hbh-dh-LQZ">
+                                <rect key="frame" x="16" y="234" width="125" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="PfE-Xb-MC6"/>
+                                    <constraint firstAttribute="width" constant="125" id="mKa-mH-Bui"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Laundry_Laundomat_White_clip_art_hight.png" translatesAutoresizingMaskIntoConstraints="NO" id="sba-U3-BD1">
+                                <rect key="frame" x="16" y="369" width="125" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="7WI-Ha-gl2"/>
+                                    <constraint firstAttribute="height" constant="100" id="uGz-iB-qXr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent-png-background-dryer-door-closed.png" translatesAutoresizingMaskIntoConstraints="NO" id="a7m-MQ-SqI">
+                                <rect key="frame" x="154" y="74" width="150" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="cFQ-wp-F6h"/>
+                                    <constraint firstAttribute="height" constant="100" id="sHr-kA-3SN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent-png-background-dryer-door-closed.png" translatesAutoresizingMaskIntoConstraints="NO" id="aCz-07-AAf">
+                                <rect key="frame" x="154" y="234" width="150" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="UfQ-fu-hlq"/>
+                                    <constraint firstAttribute="height" constant="100" id="eNa-ZR-dHo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent-png-background-dryer-door-closed.png" translatesAutoresizingMaskIntoConstraints="NO" id="kTh-SO-HAZ">
+                                <rect key="frame" x="154" y="369" width="150" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="OhE-7f-Vhi"/>
+                                    <constraint firstAttribute="width" constant="150" id="TqF-Hh-OuA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wall Washer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bf8-Y4-SS6">
+                                <rect key="frame" x="31" y="184" width="110" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="bWe-bi-wbk"/>
+                                    <constraint firstAttribute="height" constant="20" id="ebN-Ds-a2e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Middle Washer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYB-Ui-ngf">
+                                <rect key="frame" x="21" y="344" width="115" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="jZy-e5-sen"/>
+                                    <constraint firstAttribute="width" constant="115" id="wzh-oE-R9c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Door Washer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KoN-fe-VmR">
+                                <rect key="frame" x="26" y="479" width="115" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="ASv-up-RKc"/>
+                                    <constraint firstAttribute="height" constant="20" id="VJo-0c-kBK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wall Dryer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfj-rS-FbU">
+                                <rect key="frame" x="189" y="184" width="100" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="oPQ-0l-InI"/>
+                                    <constraint firstAttribute="height" constant="20" id="sax-Cl-Wvf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Middle Dryer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9z-Et-Awd">
+                                <rect key="frame" x="179" y="344" width="115" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="OEZ-XN-2ux"/>
+                                    <constraint firstAttribute="width" constant="115" id="Qq2-Cx-6AE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Door Dryer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXI-bF-J3H">
+                                <rect key="frame" x="179" y="479" width="115" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="VFC-dS-kHN"/>
+                                    <constraint firstAttribute="width" constant="115" id="mDo-oF-0DF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="sfj-rS-FbU" secondAttribute="trailing" constant="15" id="1rl-Bp-xT1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="a7m-MQ-SqI" secondAttribute="trailing" id="6RK-wB-VTf"/>
+                            <constraint firstItem="Ecr-uW-6nU" firstAttribute="top" secondItem="kTh-SO-HAZ" secondAttribute="bottom" constant="55" id="8iz-UO-bhy"/>
+                            <constraint firstItem="GZc-1L-BxE" firstAttribute="top" secondItem="KeA-vl-5PA" secondAttribute="bottom" constant="10" id="BYq-cc-hX2"/>
+                            <constraint firstItem="E9z-Et-Awd" firstAttribute="top" secondItem="aCz-07-AAf" secondAttribute="bottom" constant="10" id="CmB-4x-S0i"/>
+                            <constraint firstItem="Ecr-uW-6nU" firstAttribute="top" secondItem="sba-U3-BD1" secondAttribute="bottom" constant="10" id="DaX-oL-T0m"/>
+                            <constraint firstItem="Ecr-uW-6nU" firstAttribute="top" secondItem="sba-U3-BD1" secondAttribute="bottom" constant="55" id="Df6-Vj-Jnd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kTh-SO-HAZ" secondAttribute="trailing" id="F00-xg-5Uc"/>
+                            <constraint firstItem="vXI-bF-J3H" firstAttribute="top" secondItem="kTh-SO-HAZ" secondAttribute="bottom" constant="10" id="FI2-mS-KYK"/>
+                            <constraint firstItem="Ecr-uW-6nU" firstAttribute="top" secondItem="sba-U3-BD1" secondAttribute="bottom" constant="30" id="HNP-fg-xkW"/>
+                            <constraint firstItem="fYB-Ui-ngf" firstAttribute="top" secondItem="hbh-dh-LQZ" secondAttribute="bottom" constant="10" id="Tr5-HC-hrO"/>
+                            <constraint firstItem="Bf8-Y4-SS6" firstAttribute="leading" secondItem="bT5-hb-AOc" secondAttribute="leadingMargin" constant="15" id="WNW-ok-uvq"/>
+                            <constraint firstItem="aCz-07-AAf" firstAttribute="centerY" secondItem="bT5-hb-AOc" secondAttribute="centerY" id="WP7-bm-hgb"/>
+                            <constraint firstItem="KoN-fe-VmR" firstAttribute="top" secondItem="sba-U3-BD1" secondAttribute="bottom" constant="10" id="amE-PC-Dld"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E9z-Et-Awd" secondAttribute="trailing" constant="10" id="cOD-8Q-pm7"/>
+                            <constraint firstItem="KoN-fe-VmR" firstAttribute="leading" secondItem="bT5-hb-AOc" secondAttribute="leadingMargin" constant="10" id="cjm-xU-xce"/>
+                            <constraint firstItem="sba-U3-BD1" firstAttribute="leading" secondItem="bT5-hb-AOc" secondAttribute="leadingMargin" id="fLj-Iu-JOi"/>
+                            <constraint firstItem="sfj-rS-FbU" firstAttribute="top" secondItem="a7m-MQ-SqI" secondAttribute="bottom" constant="10" id="g8j-ZU-tKw"/>
+                            <constraint firstItem="hbh-dh-LQZ" firstAttribute="leading" secondItem="bT5-hb-AOc" secondAttribute="leadingMargin" id="j4T-Ks-HiC"/>
+                            <constraint firstItem="a7m-MQ-SqI" firstAttribute="top" secondItem="KeA-vl-5PA" secondAttribute="bottom" constant="10" id="nNI-hE-n83"/>
+                            <constraint firstItem="fYB-Ui-ngf" firstAttribute="leading" secondItem="bT5-hb-AOc" secondAttribute="leadingMargin" constant="5" id="nrc-it-qLm"/>
+                            <constraint firstItem="GZc-1L-BxE" firstAttribute="leading" secondItem="bT5-hb-AOc" secondAttribute="leadingMargin" id="s5O-B2-hB5"/>
                             <constraint firstItem="KeA-vl-5PA" firstAttribute="top" secondItem="3Kw-48-jxI" secondAttribute="bottom" id="sns-FN-jah"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aCz-07-AAf" secondAttribute="trailing" id="tBl-cP-OtO"/>
                             <constraint firstItem="KeA-vl-5PA" firstAttribute="centerX" secondItem="bT5-hb-AOc" secondAttribute="centerX" id="tWJ-Jg-68G"/>
+                            <constraint firstItem="hbh-dh-LQZ" firstAttribute="centerY" secondItem="bT5-hb-AOc" secondAttribute="centerY" id="ubN-XK-7bc"/>
+                            <constraint firstItem="Bf8-Y4-SS6" firstAttribute="top" secondItem="GZc-1L-BxE" secondAttribute="bottom" constant="10" id="vUg-0o-Lsd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vXI-bF-J3H" secondAttribute="trailing" constant="10" id="zsb-bB-b4u"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="DaX-oL-T0m"/>
+                                <exclude reference="HNP-fg-xkW"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -120,6 +255,10 @@
             <point key="canvasLocation" x="648" y="314"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Laundry_Laundomat_White_clip_art_hight.png" width="600" height="600"/>
+        <image name="transparent-png-background-dryer-door-closed.png" width="1440" height="1080"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ShK-BS-CaP"/>
     </inferredMetricsTieBreakers>
