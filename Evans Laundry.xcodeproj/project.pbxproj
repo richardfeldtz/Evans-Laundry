@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA831EE31C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png in Resources */ = {isa = PBXBuildFile; fileRef = AA831EE21C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png */; };
+		AA831EE51C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA831EE41C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png */; };
 		AA89A8CB1C912650001922B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89A8CA1C912650001922B3 /* main.m */; };
 		AA89A8CE1C912650001922B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89A8CD1C912650001922B3 /* AppDelegate.m */; };
 		AA89A8D11C912650001922B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89A8D01C912650001922B3 /* ViewController.m */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA831EE21C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Laundry_Laundomat_White_clip_art_hight.png; path = ../../../../Downloads/laundry_laundomat_white_clip_art_10313/Laundry_Laundomat_White_clip_art_hight.png; sourceTree = "<group>"; };
+		AA831EE41C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "transparent-png-background-dryer-door-closed.png"; path = "../../../../Downloads/transparent-png-background-dryer-door-closed.png"; sourceTree = "<group>"; };
 		AA89A8C61C912650001922B3 /* Evans Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evans Laundry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA89A8CA1C912650001922B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA89A8CC1C912650001922B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				AA89A8D51C912650001922B3 /* Assets.xcassets */,
 				AA89A8D71C912650001922B3 /* LaunchScreen.storyboard */,
 				AA89A8DA1C912650001922B3 /* Info.plist */,
+				AA831EE41C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png */,
+				AA831EE21C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png */,
 				AA89A8C91C912650001922B3 /* Supporting Files */,
 			);
 			path = "Evans Laundry";
@@ -137,9 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA831EE31C99EE7F007C5D11 /* Laundry_Laundomat_White_clip_art_hight.png in Resources */,
 				AA89A8D91C912650001922B3 /* LaunchScreen.storyboard in Resources */,
 				AA89A8D61C912650001922B3 /* Assets.xcassets in Resources */,
 				AA89A8D41C912650001922B3 /* Main.storyboard in Resources */,
+				AA831EE51C99EE98007C5D11 /* transparent-png-background-dryer-door-closed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				AA89A8DF1C912650001922B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
